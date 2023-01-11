@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!--Title of the page-->
+	<title>Sign Up Form</title>
+
+	<!--css reset-->
+	<!--External css-->
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+    <!--LOgo image-->
+	<div class="header">
+		<img src="images/logo.png" alt="logo" />
+	</div>
+	<!--Form section of the page-->
+	<form method="POST" action="">
+		<fieldset>
+			<p>Personal Information</p>
+			<input type="text" placeholder="email" />
+			<input type="text" placeholder="Password" />
+			<input type="text" placeholder="first name" />
+			<input type="text" placeholder="last name" />
+
+			<!-- select option for provinces-->
+			<label>Province</label>
+			<select>
+				<option>choose your province</option>
+				<option>Alberta</option>
+				<option>British Columbia</option>	
+				<option>Manitoba</option>	
+				<option>New Brunswick</option>	
+				<option>Newfoundland and Labrador</option>
+				<option>Northwest Territories</option>
+				<option>Nova Scotia</option>
+				<option>Nunavut</option>
+				<option>Ontario</option>
+				<option>Prince Edward Island</option>
+				<option>Quebec</option>
+				<option>Saskatchewan</option>
+				<option>Yukon</option>
+			</select>
+
+			<!-- checkbox for subscribe-->
+
+			<label for="subscribe">Subscribe me</label>
+			<input  id="subscribe" type="checkbox" /> 
+
+			<input id="submit" type="submit" />
+			<label>Or</label>
+
+			<!-- Link for login-->
+		    <button id="login" type="submit">Log In with Google</button>
+		</fieldset>
+
+	</form>
+	
+</body>
+</html>
